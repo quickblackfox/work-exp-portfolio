@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Computer Modern";
+    src: url(./cmunrm.ttf);
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Computer Modern";
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  font-size: x-large;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, #ff3733 , #d34dff);
+  font-weight: 500;
+  box-shadow: 5px 5px 100px black;
+}
+
+header a {
+  color: black;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+header a:hover {
+  color: white;
+  transition: 0.15s;
+}
+
+header p {
+  align-self: center;
+  font-size: xx-large;
+}
+
+#introduction {
+  display: flex;
+  padding: 75px;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large;
+}
+
+#introduction p {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+
+#introduction img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 70px;
+}
+
+#about-me {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#about-me img {
+  opacity: 0.7;
+  width: 100%;
+}
+
+#hero-text {
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: x-large;
+  width: 50%;
+  padding: 40px;
+  background-image: linear-gradient(to right, #ff3733 , #d34dff);
+  border-radius: 10%;
+  box-shadow: 5px 5px 100px black;
+}
+
+#hero-text h1 {
+  font-size: xx-large;
+}
+
+#lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-list {
+  width: 100%;
+  color: white;
+}
+
+.hero-list a {
+  color: white;
+}
+
+#skills {
+  display: flex;
+  padding: 75px;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+}
+
+#skills p {
+  font-weight: 400;
+}
+
+#skills h1 {
+  font-size: xx-large;
+}
+
+#skills ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#work-with-me {
+  display: flex;
+  padding: 75px;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+}
+
+#work-with-me h1 {
+  font-size: xx-large;
+}
+
+#work-with-me a {
+  color: black;
+}
+
+#recent-work {
+  display: flex;
+  padding: 75px;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  background-image: linear-gradient(to right, #fd1284 , #ed0955);
+  color: white;
+}
+
+#recent-work h1 {
+  font-size: xx-large;
+}
+
+footer {
+  font-size: x-large;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, #ff3733 , #d34dff);
+  font-weight: 500;
+  box-shadow: 5px 5px 100px black;
+}
+
+footer a {
+  color: black;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+footer p {
+  align-self: center;
+  font-size: xx-large;
+}
+
+footer a:hover {
+  color: white;
+  transition: 0.15s;
+}
